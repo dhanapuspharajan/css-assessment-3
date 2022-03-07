@@ -1,0 +1,170 @@
+body {
+  background-color: gray;
+}
+
+.top-div {
+  text-align: center;
+  font-style: oblique;
+  text-shadow: 2px 1px 2px rgb(119, 26, 115);
+  margin: auto;
+  background-color: white;
+  color: rgb(119, 26, 115);
+  border: 8px solid red;
+  box-shadow: 10px 10px 2px rgb(110, 54, 162);
+  border-radius: 15px;
+  width: 450px;
+}
+
+hr {
+  color: wheat;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+  border: 10px solid green;
+  height: fit-content;
+}
+
+.box {
+  margin: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: white;
+  border: 5px solid red;
+  box-shadow: 8px 8px 2px purple;
+  border-radius: 15px;
+  width: 210px;
+  height: 200px;
+  padding: 20px;
+}
+
+h2 {
+  color: rgb(36, 10, 36);
+  margin-top: 0;
+  text-shadow: 2px 2px 3px rgb(140, 43, 140);
+}
+/* .image-container {
+  position: absolute;
+  top: 0;
+  left: 75%;
+}*/
+
+.image-container img {
+  width: 180px;
+  height: 180px;
+}
+
+.notice {
+  position: relative;
+}
+
+.rate-us {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  text-align: center;
+}
+
+label {
+  color: rgb(36, 10, 36);
+  font-weight: bolder;
+  text-shadow: 2px 1px 2px purple;
+}
+#sub {
+  background-color: orangered;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.float-div {
+  height: fit-content;
+  display: flex;
+  background-color: greenyellow;
+  color: darkred;
+  position: fixed;
+  top: 80%;
+  left: 35%;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  border: 10px solid red;
+  box-shadow: 8px 8px 3px purple;
+  border-radius: 15px;
+}
+
+.float-div h2 {
+  display: flex;
+  position: relative;
+  color: darkred;
+  text-shadow: none;
+  top: 10px;
+}
+
+footer {
+  margin-top: 20px;
+}
+.footer-box {
+  width: fit-content;
+  margin: auto;
+  border: 10px solid purple;
+}
+
+.grid-con {
+  display: grid;
+  background-color: green;
+  grid-template-columns: auto auto;
+  flex-flow: row;
+  gap: 8px 10px;
+  text-align: center;
+}
+
+.fruit {
+  background-color: rgb(233, 233, 134);
+  width: 400px;
+  color: black;
+  height: fit-content;
+}
+.fruit h2 {
+  color: black;
+  text-shadow: none;
+  margin-top: 20px;
+}
+.vegetables h2 {
+  color: black;
+  margin-top: 20px;
+  text-shadow: none;
+}
+
+.other-items h2 {
+  margin-top: 20px;
+  text-shadow: none;
+  color: black;
+}
+
+.vegetables {
+  background-color: rgb(233, 233, 134);
+  color: black;
+  width: 400px;
+  height: fit-content;
+}
+.footer-box {
+  color: black;
+  padding: 5px;
+  background-color: green;
+  text-align: center;
+}
+.footer-box h2 {
+  margin-top: 10px;
+  color: black;
+  text-shadow: none;
+}
+
+.other-items {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: rgb(233, 233, 134);
+}
